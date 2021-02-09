@@ -43,5 +43,4 @@ The word cloud below exacerbates visually the effect of vaccines being the centr
 A network-bigram analysis was conducted on the data to investigate which words co-occur. This enables the visualization of bi- and trigrams which the previous word frequency analysis neglects.
 ![Bigrams](fig/bigram_graph.png)
 
-The figure shows clusters such as "grænse" and "lukke" for the closed borders, a close relation between "covid19dk", "dkpol", and "dkmedier" - the most popular Covid-19 related hashtags.
-The word "mutation" co-occurs with "smitsom", "britisk", "smitte", "sprede", "pga", "sydafrikansk", "corona". And "b117" is closely related to and "variant".
+The figure shows clusters such as "dkmedier", "covid19dk", "dkpol" - the most popular Covid19 related hashtags, "bill" and "gate" for "gates", "cluster" and "5" for the mink mutation form referred to as Cluster 5. In the large network component, some of the core words that relate to others are "vaccinere" which connects to "covid19", "lade", "hurtig", "dansker", "befolkning". "vaccine" is connected to "covid19", "tage", "udvikle", "passe", "corona", "covid", "tilbyde", "godkende", "virke", "give" and "mening", "dø".
