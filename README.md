@@ -1,10 +1,10 @@
 # HOPE: Mentions of vaccines in the Danish Twitter
 This repository contains an overview of the discourse on the Danish Twitter in relation to vaccines.
 
-Data was collected with searching for matches in the tweets for keyword "vaccin". Overall, there are **45 069** matching tweets, with an average of **483** tweets per day.
+Data was collected with searching for matches in the tweets for keyword "vaccin". Overall, there are **70 105** matching tweets, with an average of **483** tweets per day.
 
 ## Date range
-1.01.2020 until 22.01.2021
+1.01.2020 until 10.03.2021
 
 ## Preprocessing
 Retweets were discarded, and quote tweets were removed. The way of removal was via checking whether the 50 first characters overlapped between the tweets in the dataset (user mentions in the beginning of tweets were ignored).
@@ -14,7 +14,7 @@ Retweets were discarded, and quote tweets were removed. The way of removal was v
 The above figure shows the total mentions of vaccines over time. There is some elevanted discourse about vaccines in April 2020, but the highest numbers are seen starting from 1.11.2020.
 
 ![Time series of vaccine mentiones 2021](fig/all_vaccin_mentions_winter.png)
-Vaccine mentions from 1.11.2020 have started to skyrocket. 
+Vaccine mentions from 1.11.2020 skyrocketed around January 2021, and have gone down a bit afterwards. 
 
 ## Frequent hashtags
 A hashtag analysis was conducted to see if there might be a trending hashtag popping up in the dataset.
