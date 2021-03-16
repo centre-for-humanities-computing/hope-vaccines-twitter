@@ -14,7 +14,7 @@ Retweets were discarded, and quote tweets were removed. The way of removal was v
 The above figure shows the total mentions of vaccines over time. There is some elevanted discourse about vaccines in April 2020, but the highest numbers are seen starting from 1.11.2020.
 
 ![Time series of vaccine mentiones 2021](fig/all_vaccin_mentions_winter.png)
-Vaccine mentions from 1.11.2020 skyrocketed around January 2021, and have gone down a bit afterwards. 
+Vaccine mentions from 1.11.2020 grow with the first vaccinations starting in December.
 
 ## Frequent hashtags
 A hashtag analysis was conducted to see if there might be a trending hashtag popping up in the dataset.
@@ -29,6 +29,14 @@ Here the vaccines related hashtags are plotted against each other over time to s
 The compound semantic scores were calculated with the Danish Vader. Overall the sentiment remains within the neutral range. It's also visible that the more data, the less the sentiment varies, and from November 2020 until January 2021 the sentiment scores lie on the positive side of the scale.
 
 ![Sentiment analysis](fig/sentiment_compound.png)
+
+Zooming in on the data from 1st Jan until March 2021 it's visible that the sentiment almost doesn't get negative but remains in the positive side of the scale. Note - the y scale has been adjusted to show the effects more clearly.
+![Sentiment analysis winter](fig/sentiment_compound_winter.png)
+
+### AstraZeneca and Pfizer
+Comparing the sentiments around these two popular vaccines results with the following plot.
+![Sentiment of AstraZeneca and Pfizer](fig/az_p_sentiment_compound_winter.png)
+The mentions are mostly on the positive scale for both vaccines, however towards March AstraZeneca seems to have generally lower scores more often that Pfizer. Note - the y scale has been rescaled to show the effects better.
 
 ## Word frequency
 For the following analysis, all tweets were tokenized and lemmatized, to make sure that different forms of “vaccin” would be considered as its stem form. Stop words were removed.
