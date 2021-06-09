@@ -23,12 +23,15 @@ These are the 30 most popular hashtags used in the dataset. The most popular has
 Here the vaccines related hashtags are plotted against each other over time to see which ones are used most often and when.
 
 ## Sentiment analysis
-The compound semantic scores were calculated with the Danish Vader. Overall the sentiment remains within the neutral range. It's also visible that the more data, the less the sentiment varies, and from November 2020 until January 2021 the sentiment scores lie on the positive side of the scale.
+![Sentiment analysis labels](fig/sentiment_compound_mentions_count_labelled.png)
+Plotting number of mentions of vaccines in Twitter compared to averaged and centered compound sentiment scores shows a few trends:
+1. The sentiment in the beginning of the year tends to be positive
+2. The sentiment drops below 0 after AstraZeneca is halted and remains low
+3. A new low in the sentiment occurs when J&J is withdrawn
+4. The days where highly valent negative events occur (AZ halted, AZ withdrawn, J&J withdrawn), there are also spikes in number of mentions, meaning that the average sentiment scores for those days are more certain
 
-![Sentiment analysis](fig/sentiment_compound.png)
-
-Zooming in on the data from 1st Jan until March 2021 it's visible that the sentiment almost doesn't get negative but remains in the positive side of the scale. Note - the y scale has been adjusted to show the effects more clearly.
-![Sentiment analysis winter](fig/sentiment_compound_winter.png)
+![Sentiment entropy](fig/sentiment_compound_entropy_labelled.png)
+An analysis of compound sentiment compared to entropy shows relations where some events are drivers for more uncertainty in Twitter about the sentiment around vaccines.
 
 ### AstraZeneca and Pfizer
 Comparing the sentiments around these two popular vaccines results with the following plot.
