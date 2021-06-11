@@ -3,8 +3,15 @@ This repository contains an overview of the discourse on the Danish Twitter in r
 
 Data was collected with searching for matches in the tweets for keyword "vaccin". Overall, there are **70 105** matching tweets, with an average of **483** tweets per day.
 
+## Author
+Maris Sala
+
+## Repository
+The explanations on what this repository consists of can be found in the markdown file ``explaning-folder.md``. The data is gathered with the codes gathered in this repository: https://github.com/marissala/hope-keyword-query-Twitter
+The output data (includes the tweets, when they were created, sentiment scores, smoothed number of mentions and sentiment) is in the ``hope-keyword-query`` folder on the Grundtvig server at CHCAA. The data file itself is not stored in this folder.
+
 ## Date range
-1.01.2020 until 10.03.2021
+1.01.2021 until 05.06.2021
 
 ## Preprocessing
 Retweets were discarded, and quote tweets were removed. The way of removal was via checking whether the 50 first characters overlapped between the tweets in the dataset (user mentions in the beginning of tweets were ignored).
